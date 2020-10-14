@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Mano pirmas puslapis</h1>
+<p>Mano pirmas paragrafas.</p>
+
+<p id="demo"></p>
+
+<script>
+
+    let a = -5;
+    let b = 0;
+    let c = -4;
+    let d = 4;
+    let x ='';
+    let y ='';
+
+    if(a > b || c > b){
+        window.alert('Sankirta negalima');
+    }
+
+    if (a >= c && d >= a) {
+        x = a;
+    } else if (a <= c && c <= b) {
+        x =c;
+    }
+
+    if (c <= b && b <= d) {
+        y = b;
+    }
+
+    if (a <= d && d >= b) {
+        y = d;
+    } else if (c <= b && b >= d) {
+        y = b;
+    }
+
+    let atsakymas = 'X: ' + x + ' Y: ' + y;
+
+    if (atsakymas !== 'X: ??? Y: ???') {
+
+        document.getElementById('demo').innerHTML = atsakymas;
+
+    }
+
+    // tai x = -4, y = 0
+
+
+</script>
+
+</body>
+</html>
