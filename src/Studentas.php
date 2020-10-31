@@ -1,5 +1,7 @@
 <?php
 
+namespace Norbertas;
+
 class Studentas
 {
     private string $name;

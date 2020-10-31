@@ -1,5 +1,7 @@
 <?php
 
+namespace Norbertas;
+
 class Grupe
 {
     public const DEFAULT_LENGTH = 72;

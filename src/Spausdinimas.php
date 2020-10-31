@@ -1,5 +1,7 @@
 <?php
 
+namespace Norbertas;
+
 class Spausdinimas
 {
     public static function spausdintiHtml(array $arr): void

@@ -1,0 +1,51 @@
+header {
+    padding: 10px;
+    background-color: #BADA55;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    text-align: center;
+}
+
+
+
+
+aside {
+    padding-left: 15px;
+}
+footer {
+    text-align: right;
+    padding: 10px;
+    background-color: #333634;
+    color: white;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav > a {
+    font-size: 28px;
+    border-right: 3px solid white;
+    padding-right: 10px;
+    margin-left: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+nav > a:last-of-type {
+    border-right: none;
+}
+
+.active {
+    color: #3a7349;
+    font-size: 32px;
+    padding-right: 8px;
+    margin-left: 8px;
+
+}
